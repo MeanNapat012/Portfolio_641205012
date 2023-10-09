@@ -1,0 +1,65 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Project
+{
+    font-size: 56px;
+    text-align: center;
+    background-color: #D2E0FB;
+    padding-top: 1%;
+    padding-bottom: 1%; 
+}
+
+#PictureGame01, #PictureGame02, #PictureGame03
+{
+    border-radius : 35px;
+    width : 500px;
+    height : 300px;
+}
+
+.PictureInGame
+{
+    background-color: #F9F3CC;
+    padding-top : 1%;
+    padding-bottom : 1%;
+    text-align: center;
+}
+
+#InfoGame
+{
+    font-size: 48px;
+    text-align: center;
+    background-color: #D2E0FB;
+    padding-top: 1%;
+    padding-bottom: 1%; 
+}
+
+#TextStoryGame
+{
+    font-size: 28px;
+    text-align: center;
+    background-color: #F9F3CC;
+    padding-top: 3%;
+    padding-bottom: 3%; 
+}
+
+#LetPlayGame
+{
+    background-color: #F9F3CC;
+    padding-top: 1%;
+    padding-bottom: 5%; 
+    text-align: center;
+
+}
+
+.Contact
+{
+    text-align: center;
+    font-size: 28px;
+    background-color: #D2E0FB;
+    padding-bottom: 1%;
+    margin: 0;
+}

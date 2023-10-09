@@ -1,0 +1,205 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Portfolio
+{
+    font-size: 56px;
+    text-align: center;
+    background-color: #D2E0FB;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+.header
+{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: #F9F3CC;
+    padding-top: 5%;
+    padding-left : 5%;
+    padding-bottom : 5%
+}
+
+#name
+{
+    padding-top: 10%;
+    font-size: 48px;
+    text-align: left;
+    margin-right: 10%;
+}
+
+#Description
+{
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 28px;
+    text-align: left;
+}
+
+#Picture
+{
+    border-radius: 50px;
+    width: 500px;
+    height: 500px;
+    grid-column: 1;
+    margin-left: 10%;
+    margin-right:10%;
+    
+}
+
+.Profile
+{
+    grid-column: 2;
+    text-align: center;
+    font-size: 36px;
+}
+
+.Section
+{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    background-color: #D2E0FB;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+}
+
+.headHobby
+{
+    grid-column: 1;
+    border:2px solid black;
+    font-size : 24px;
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 10%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.headSkill
+{
+    grid-column: 2;
+    border:2px solid black;
+    font-size : 24px;
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 10%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+
+.headInterest
+{
+    grid-column: 3;
+    border:2px solid black;
+    font-size : 24px;
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 10%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+#textHobbyAll, #textSkillAll, #textInterestAll
+{
+    padding-left: 10%;
+}
+
+.Work
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #F9F3CC;
+}
+
+#AssignmentAll, #ProjectAll
+{
+    
+    border:2px solid black;
+    font-size : 24px;
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 10%;
+    padding-left:20px; 
+    padding-bottom : 5%
+}
+
+#assignment, #ProjectButton
+{
+    padding-left: 10%;
+}
+
+.Contact
+{
+    text-align: center;
+    font-size: 28px;
+    background-color: #D2E0FB;
+    padding-bottom: 1%;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+	.header {
+		display: grid;
+          grid-template-columns: auto;
+          grid-gap: 10px;
+	}
+
+    #Picture
+    {
+        grid-column: 1;
+        margin-left: auto;
+    }
+
+    .Profile
+    {
+        grid-column: 1;
+    }
+
+    .Section
+    {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap : 10px;
+    }
+    .headHobby
+    {
+        grid-column: 1;
+        
+    }
+
+    .headSkill
+    {
+        grid-column: 1;
+    }
+
+    .headInterest
+    {
+        grid-column: 1;
+    }
+
+    .Work{
+    display: grid;
+    grid-template-columns: auto
+
+    }
+
+    #AssignmentAll
+    {
+        grid-column: 1;
+
+    }
+
+    #ProjectAll
+    {
+        grid-column: 1;
+    }
+}

@@ -1,0 +1,29 @@
+body{
+    background-color: #176B87;
+}
+
+#header{
+    text-align:center;
+    color:white;
+    padding: 10px;
+}
+
+#AllGourp, #button{
+    text-align: center;
+    border: 2px solid #04364A;
+    margin-left:  10%;
+    margin-right: 10%;
+}
+
+#topic1{
+    margin-top: 30px;
+}
+
+#topic1, #comment1, #comment2
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: auto;
+    color :white;
+
+}
